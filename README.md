@@ -18,8 +18,8 @@ datetime: To handle date and time operations.
 
 ## Installation
 
-Create a virtual environment if needed. - https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
-Install the required libraries.
+- Create a virtual environment if needed. - https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+- Install the required libraries.
 
 ## How to run
 
