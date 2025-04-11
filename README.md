@@ -1,4 +1,4 @@
-# travel_history_service
+# Travel History REST API with Flask
  Flask-based service designed to track countries visited, providing various endpoints to manage country data, retrieve travel history, and visualize country visits.
  
 ## Requirements
