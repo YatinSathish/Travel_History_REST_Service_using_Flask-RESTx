@@ -7,18 +7,13 @@ This Flask-based REST API lets users track and manage countries they’ve visite
 - `PATCH /countries/<code>`: Add more years to a country’s visit history.
 - `DELETE /countries/<code>`: Delete a country record.
 - `GET /countries`: List all visited countries with:
-
   - Pagination (page, size)
+  - Filtering by continent, language, currency, or year visited
+  - Sorting by fields like name, last_updated
+- `GET /countries/visited`: Generate and return a PNG chart showing the most visited continents.
+- Automatic population of country data using the external GraphQL API.
+- HATEOAS-style _links field in responses for navigation (self, prev, next).
 
-Filtering by continent, language, currency, or year visited
-
-Sorting by fields like name, last_updated
-
-GET /countries/visited: Generate and return a PNG chart showing the most visited continents.
-
-Automatic population of country data using the external GraphQL API.
-
-HATEOAS-style _links field in responses for navigation (self, prev, next).
 ## Requirements
 This project requires the following Python packages:
 
