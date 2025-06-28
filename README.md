@@ -2,13 +2,13 @@
 Travel History REST API with Flask
 This Flask-based REST API lets users track and manage countries they’ve visited. It integrates with the Trevor Blades GraphQL API to fetch country metadata, stores it locally in SQLite, and supports operations like retrieval, filtering, updating, and visualizing travel history across continents.
 # 🧩 Features
-`PUT /countries/<code>`: Import a new country by 2-letter code or update an existing one.
-`GET /countries/<code>`: Retrieve country details including visit history.
-PATCH /countries/<code>: Add more years to a country’s visit history.
-DELETE /countries/<code>: Delete a country record.
-GET /countries: List all visited countries with:
+- `PUT /countries/<code>`: Import a new country by 2-letter code or update an existing one.
+- `GET /countries/<code>`: Retrieve country details including visit history.
+- `PATCH /countries/<code>`: Add more years to a country’s visit history.
+- `DELETE /countries/<code>`: Delete a country record.
+- `GET /countries`: List all visited countries with:
 
-Pagination (page, size)
+  - Pagination (page, size)
 
 Filtering by continent, language, currency, or year visited
 
