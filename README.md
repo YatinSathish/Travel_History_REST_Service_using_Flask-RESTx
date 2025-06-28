@@ -17,17 +17,12 @@ This Flask-based REST API lets users track and manage countries they’ve visite
 ## Requirements
 This project requires the following Python packages:
 
-Flask: A web framework for building APIs.
-
-Flask-RESTx: An extension for Flask that simplifies the creation of RESTful APIs.
-
-sqlite3: A database library used to manage country data.
-
-requests: A library to make HTTP requests to external APIs.
-
-matplotlib: A plotting library used for visualizing the travel history as PNG images.
-
-datetime: To handle date and time operations.
+- `Flask`: A web framework for building APIs.
+- `Flask-RESTx`: An extension for Flask that simplifies the creation of RESTful APIs.
+- `sqlite3`: A database library used to manage country data.
+- `requests`: A library to make HTTP requests to external APIs.
+- `matplotlib`: A plotting library used for visualizing the travel history as PNG images.
+- `datetime`: To handle date and time operations.
 
 ## Installation
 
